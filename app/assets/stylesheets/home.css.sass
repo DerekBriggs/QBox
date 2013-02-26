@@ -1,12 +1,15 @@
 @import "clear"
-
+$text-shadow: 0 2px 2px rgba(0,0,0,.4)
 body
   font-family: lucida grande
+  background: #22201f
 
 header
   width: 100%
   background: #2e2f2f
-  height: 100px
+  padding: 10px 0
+  box-shadow: 0 2px 6px rgba(0,0,0,.4)
+
 
 .logo
   float: right
@@ -15,15 +18,86 @@ header
   width: 164px
   height: 54px
   background-size: 100%
-  margin: 28px 20px 0 0
+  margin: 18px 20px 0 0
 
-#NowPlaying
-<<<<<<< HEAD
-  color: #e5572c
-  width: 24px
-  text-align: center
+#nowPlaying
 
-.roomInfo
+  .likes
+    font-size: 14px
+    color: #e5572c
+    font-weight: bold
+    text-shadow: $text-shadow
+    display: inline-block
+    vertical-align: top
+    margin: 22px 30px
+    width: 60px
+    line-height: 1.2
+    text-align: center
+    text-transform: uppercase
+
+  .coverArt
+    margin: 0 14px 0 0
+    width: 75px
+    height: 75px
+    background: #ad9f73
+    display: inline-block
+    vertical-align: top
+    border-radius: 4px
+    box-shadow: 0 2px 12px rgba(0,0,0,.4)
+
+  .info
+    display: inline-block
+    vertical-align: top
+    margin: 10px 60px 0 0 
+
+    div
+      margin-bottom: 6px
+
+      &:last-child
+        margin-bottom: 0
+
+    #track
+      font-size: 14px
+      font-weight: bold
+      color: #cdcdcd
+      text-shadow: $text-shadow
+
+    #album
+      color: #a7a7a7
+      font-size: 14px
+      text-shadow: $text-shadow
+
+    #artist
+      color: #cdcdcd
+      font-size: 14px
+      text-shadow: $text-shadow
+
+  .rating
+    display: inline-block
+    vertical-align: top
+    margin: 24px 0 0 0
+
+    #thumbsDown
+      background: url(/assets/thumbs@2x.png)
+      width: 24px
+      height: 25px
+      background-size: 100%
+      display: inline-block
+      vertical-align: top
+      margin-right: 6px
+      -webkit-transform: rotate(180deg)
+
+
+    #thumbsUp
+      background: url(/assets/thumbsglow@2x.png)
+      width: 24px
+      height: 24px
+      background-size: 100%
+      display: inline-block
+      vertical-align: top
+
+
+section.roomInfo
   padding: 40px
 
   #name
@@ -37,21 +111,3 @@ header
   #roomTotal
     font-size: 14px
     color: #929292
-=======
-
-.Playing
-  font-size: 14px
-  color: #e45431
-  width: 60px
-  text-align: center
-  display: inline-block
-  margin: 36px 30px 0 30px
-  text-transform: uppercase
-
-
-.CoverArt
-  width: 75px
-  height: 75px
-  background: #ad9f73
-  display: inline-block
->>>>>>> header update

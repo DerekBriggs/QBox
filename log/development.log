@@ -2714,3 +2714,2686 @@ Served asset /application.js - 304 Not Modified (0ms)
 
 Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-25 21:18:18 -0500
 Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-25 21:32:41 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (5.8ms)
+WARNING on line 20 of /Users/derek/Documents/Projects/QBox/app/assets/stylesheets/home.css.sass:
+This selector doesn't have any properties and will not be rendered.
+Completed 500 Internal Server Error in 25ms
+
+ActionView::Template::Error (Invalid mixin "======".
+  (in /Users/derek/Documents/Projects/QBox/app/assets/stylesheets/home.css.sass)):
+    2: <html>
+    3: <head>
+    4:   <title>QBox</title>
+    5:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    6:   <%= javascript_include_tag "application" %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/home.css.sass:40
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1253068939832654627_70358001725160'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-25 21:33:27 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (27.3ms)
+Compiled home.css  (27ms)  (pid 3129)
+Compiled application.css  (1ms)  (pid 3129)
+Completed 200 OK in 74ms (Views: 74.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-25 21:33:27 -0500
+Served asset /application.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/_clear.css?body=1" for 127.0.0.1 at 2013-02-25 21:33:27 -0500
+Served asset /_clear.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-25 21:33:27 -0500
+Served asset /home.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-25 21:33:27 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-25 21:33:27 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-25 21:33:27 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-25 21:33:27 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2013-02-25 21:33:27 -0500
+Served asset /logo@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-25 21:37:03 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Compiled home.css  (29ms)  (pid 3129)
+Compiled application.css  (1ms)  (pid 3129)
+Completed 200 OK in 50ms (Views: 50.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-25 21:37:03 -0500
+Served asset /application.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/_clear.css?body=1" for 127.0.0.1 at 2013-02-25 21:37:03 -0500
+Served asset /_clear.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-25 21:37:03 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-25 21:37:03 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-25 21:37:03 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-25 21:37:03 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-25 21:37:37 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (5.5ms)
+Completed 200 OK in 11ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-25 21:37:37 -0500
+Served asset /home.css - 200 OK (2ms)
+
+
+Started GET "/assets/_clear.css?body=1" for 127.0.0.1 at 2013-02-25 21:37:37 -0500
+Served asset /_clear.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-25 21:37:37 -0500
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-25 21:37:37 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-25 21:37:37 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-25 21:37:37 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-25 21:37:37 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2013-02-25 21:37:37 -0500
+Served asset /logo@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-25 21:41:40 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Compiled _clear.css  (84ms)  (pid 3129)
+Compiled home.css  (29ms)  (pid 3129)
+Compiled application.css  (1ms)  (pid 3129)
+Completed 200 OK in 140ms (Views: 139.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-25 21:41:40 -0500
+Served asset /application.css - 304 Not Modified (28ms)
+
+
+Started GET "/assets/_clear.css?body=1" for 127.0.0.1 at 2013-02-25 21:41:40 -0500
+Served asset /_clear.css - 200 OK (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-25 21:41:40 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-25 21:41:40 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-25 21:41:40 -0500
+Served asset /home.css - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-25 21:41:40 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2013-02-25 21:41:40 -0500
+Served asset /logo@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-25 21:43:14 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Compiled home.css  (31ms)  (pid 3129)
+Compiled application.css  (1ms)  (pid 3129)
+Completed 200 OK in 53ms (Views: 52.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-25 21:43:14 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-25 21:43:14 -0500
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-25 21:43:14 -0500
+Served asset /home.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-25 21:43:14 -0500
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-25 21:43:14 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_clear.css?body=1" for 127.0.0.1 at 2013-02-25 21:43:14 -0500
+Served asset /_clear.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-25 21:43:14 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2013-02-25 21:43:14 -0500
+Served asset /logo@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-25 21:43:17 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 5.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-25 21:43:17 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_clear.css?body=1" for 127.0.0.1 at 2013-02-25 21:43:17 -0500
+Served asset /_clear.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-25 21:43:17 -0500
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-25 21:43:17 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-25 21:43:17 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-25 21:43:17 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-25 21:43:17 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2013-02-25 21:44:18 -0500
+Served asset /logo@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2013-02-25 21:44:18 -0500
+Served asset /logo@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2013-02-25 21:44:18 -0500
+Served asset /logo@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2013-02-25 21:44:18 -0500
+Served asset /logo@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2013-02-25 21:44:21 -0500
+Served asset /logo@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2013-02-25 21:44:21 -0500
+Served asset /logo@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2013-02-25 21:44:22 -0500
+Served asset /logo@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2013-02-25 21:44:22 -0500
+Served asset /logo@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2013-02-25 21:44:23 -0500
+Served asset /logo@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2013-02-25 21:44:23 -0500
+Served asset /logo@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2013-02-25 21:44:24 -0500
+Served asset /logo@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2013-02-25 21:44:24 -0500
+Served asset /logo@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2013-02-25 21:44:37 -0500
+Served asset /logo@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-25 21:44:37 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Compiled home.css  (30ms)  (pid 3129)
+Compiled application.css  (1ms)  (pid 3129)
+Completed 200 OK in 52ms (Views: 51.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-25 21:44:37 -0500
+Served asset /home.css - 200 OK (12ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-25 21:44:37 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-25 21:44:37 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-25 21:44:37 -0500
+Served asset /application.css - 304 Not Modified (21ms)
+
+
+Started GET "/assets/_clear.css?body=1" for 127.0.0.1 at 2013-02-25 21:44:37 -0500
+Served asset /_clear.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-25 21:44:37 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2013-02-25 21:44:37 -0500
+Served asset /logo@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-25 21:44:52 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Compiled home.css  (28ms)  (pid 3129)
+Compiled application.css  (1ms)  (pid 3129)
+Completed 200 OK in 49ms (Views: 49.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-25 21:44:52 -0500
+Served asset /application.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/_clear.css?body=1" for 127.0.0.1 at 2013-02-25 21:44:52 -0500
+Served asset /_clear.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-25 21:44:52 -0500
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-25 21:44:52 -0500
+Served asset /home.css - 200 OK (5ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-25 21:44:52 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-25 21:44:52 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-25 21:44:52 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2013-02-25 21:44:52 -0500
+Served asset /logo@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-25 21:45:40 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.2ms)
+Compiled home.css  (29ms)  (pid 3129)
+Compiled application.css  (1ms)  (pid 3129)
+Completed 200 OK in 51ms (Views: 50.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-25 21:45:40 -0500
+Served asset /application.css - 304 Not Modified (32ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-25 21:45:40 -0500
+Served asset /home.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-25 21:45:40 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_clear.css?body=1" for 127.0.0.1 at 2013-02-25 21:45:40 -0500
+Served asset /_clear.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-25 21:45:40 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-25 21:45:40 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-25 21:45:40 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2013-02-25 21:45:41 -0500
+Served asset /logo@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-25 21:46:49 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Compiled home.css  (29ms)  (pid 3129)
+Compiled application.css  (1ms)  (pid 3129)
+Completed 200 OK in 50ms (Views: 49.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-25 21:46:49 -0500
+Served asset /application.css - 304 Not Modified (30ms)
+
+
+Started GET "/assets/_clear.css?body=1" for 127.0.0.1 at 2013-02-25 21:46:49 -0500
+Served asset /_clear.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-25 21:46:49 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-25 21:46:49 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-25 21:46:49 -0500
+Served asset /home.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-25 21:46:49 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-25 21:46:49 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2013-02-25 21:46:49 -0500
+Served asset /logo@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-25 21:47:36 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.2ms)
+Compiled home.css  (31ms)  (pid 3129)
+Compiled application.css  (1ms)  (pid 3129)
+Completed 200 OK in 70ms (Views: 70.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-25 21:47:36 -0500
+Served asset /home.css - 200 OK (9ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-25 21:47:36 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-25 21:47:36 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-25 21:47:36 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_clear.css?body=1" for 127.0.0.1 at 2013-02-25 21:47:36 -0500
+Served asset /_clear.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-25 21:47:36 -0500
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-25 21:47:36 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2013-02-25 21:47:36 -0500
+Served asset /logo@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-25 21:47:46 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.2ms)
+Completed 200 OK in 6ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-25 21:47:46 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-25 21:47:46 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_clear.css?body=1" for 127.0.0.1 at 2013-02-25 21:47:46 -0500
+Served asset /_clear.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-25 21:47:46 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-25 21:47:46 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-25 21:47:46 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-25 21:48:25 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Compiled home.css  (48ms)  (pid 3129)
+Compiled application.css  (1ms)  (pid 3129)
+Completed 200 OK in 69ms (Views: 68.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_clear.css?body=1" for 127.0.0.1 at 2013-02-25 21:48:25 -0500
+Served asset /_clear.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-25 21:48:25 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-25 21:48:25 -0500
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-25 21:48:25 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-25 21:48:25 -0500
+Served asset /home.css - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-25 21:48:25 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2013-02-25 21:48:25 -0500
+Served asset /logo@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-25 21:48:58 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Compiled home.css  (47ms)  (pid 3129)
+Compiled application.css  (1ms)  (pid 3129)
+Completed 200 OK in 68ms (Views: 68.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-25 21:48:58 -0500
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-25 21:48:58 -0500
+Served asset /application.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/_clear.css?body=1" for 127.0.0.1 at 2013-02-25 21:48:58 -0500
+Served asset /_clear.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-25 21:48:58 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-25 21:48:58 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-25 21:48:58 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-25 21:49:05 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-25 21:49:05 -0500
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-25 21:49:05 -0500
+Served asset /home.css - 200 OK (2ms)
+
+
+Started GET "/assets/_clear.css?body=1" for 127.0.0.1 at 2013-02-25 21:49:05 -0500
+Served asset /_clear.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-25 21:49:05 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-25 21:49:05 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-25 21:49:05 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-25 21:49:05 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2013-02-25 21:49:05 -0500
+Served asset /logo@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-25 21:49:55 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Compiled home.css  (34ms)  (pid 3129)
+Compiled application.css  (1ms)  (pid 3129)
+Completed 200 OK in 57ms (Views: 56.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-25 21:49:55 -0500
+Served asset /application.css - 304 Not Modified (30ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-25 21:49:55 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_clear.css?body=1" for 127.0.0.1 at 2013-02-25 21:49:55 -0500
+Served asset /_clear.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-25 21:49:55 -0500
+Served asset /home.css - 200 OK (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-25 21:49:55 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-25 21:49:55 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2013-02-25 21:49:55 -0500
+Served asset /logo@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-25 21:50:08 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Compiled home.css  (32ms)  (pid 3129)
+Compiled application.css  (1ms)  (pid 3129)
+Completed 200 OK in 53ms (Views: 52.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-25 21:50:09 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-25 21:50:09 -0500
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-25 21:50:09 -0500
+Served asset /home.css - 200 OK (2ms)
+
+
+Started GET "/assets/_clear.css?body=1" for 127.0.0.1 at 2013-02-25 21:50:09 -0500
+Served asset /_clear.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-25 21:50:09 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-25 21:50:09 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2013-02-25 21:50:09 -0500
+Served asset /logo@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-25 21:50:17 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.2ms)
+Compiled home.css  (31ms)  (pid 3129)
+Compiled application.css  (1ms)  (pid 3129)
+Completed 200 OK in 54ms (Views: 53.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_clear.css?body=1" for 127.0.0.1 at 2013-02-25 21:50:17 -0500
+Served asset /_clear.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-25 21:50:17 -0500
+Served asset /application.css - 200 OK (4ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-25 21:50:17 -0500
+Served asset /home.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-25 21:50:17 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-25 21:50:17 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-25 21:50:17 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-25 21:50:17 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2013-02-25 21:50:17 -0500
+Served asset /logo@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-25 21:50:50 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.3ms)
+Compiled home.css  (98ms)  (pid 3129)
+Compiled application.css  (5ms)  (pid 3129)
+Completed 200 OK in 197ms (Views: 196.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_clear.css?body=1" for 127.0.0.1 at 2013-02-25 21:50:50 -0500
+Served asset /_clear.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-25 21:50:51 -0500
+Served asset /home.css - 200 OK (19ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-25 21:50:51 -0500
+Served asset /application.css - 304 Not Modified (19ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-25 21:50:51 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-25 21:50:51 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-25 21:50:51 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-25 21:50:51 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2013-02-25 21:50:51 -0500
+Served asset /logo@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-25 21:51:31 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Compiled home.css  (51ms)  (pid 3129)
+Compiled application.css  (1ms)  (pid 3129)
+Completed 200 OK in 72ms (Views: 71.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-25 21:51:31 -0500
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/_clear.css?body=1" for 127.0.0.1 at 2013-02-25 21:51:31 -0500
+Served asset /_clear.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-25 21:51:31 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-25 21:51:31 -0500
+Served asset /home.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-25 21:51:31 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-25 21:51:31 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-25 21:51:31 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2013-02-25 21:51:31 -0500
+Served asset /logo@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-25 21:51:52 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Compiled home.css  (53ms)  (pid 3129)
+Compiled application.css  (1ms)  (pid 3129)
+Completed 200 OK in 75ms (Views: 74.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-25 21:51:52 -0500
+Served asset /home.css - 200 OK (7ms)
+
+
+Started GET "/assets/_clear.css?body=1" for 127.0.0.1 at 2013-02-25 21:51:52 -0500
+Served asset /_clear.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-25 21:51:52 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-25 21:51:52 -0500
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-25 21:51:52 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-25 21:51:52 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-25 21:51:52 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2013-02-25 21:51:52 -0500
+Served asset /logo@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-25 21:57:12 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (4.9ms)
+Compiled home.css  (55ms)  (pid 3129)
+Compiled application.css  (1ms)  (pid 3129)
+Completed 200 OK in 82ms (Views: 81.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-25 21:57:12 -0500
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/_clear.css?body=1" for 127.0.0.1 at 2013-02-25 21:57:12 -0500
+Served asset /_clear.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-25 21:57:12 -0500
+Served asset /home.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-25 21:57:12 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-25 21:57:12 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-25 21:57:12 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-25 21:57:12 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2013-02-25 21:57:12 -0500
+Served asset /logo@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-25 21:57:52 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Compiled home.css  (36ms)  (pid 3129)
+Compiled application.css  (1ms)  (pid 3129)
+Completed 200 OK in 57ms (Views: 56.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-25 21:57:52 -0500
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/_clear.css?body=1" for 127.0.0.1 at 2013-02-25 21:57:52 -0500
+Served asset /_clear.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-25 21:57:52 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-25 21:57:52 -0500
+Served asset /home.css - 200 OK (21ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-25 21:57:52 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-25 21:57:52 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-25 21:57:53 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2013-02-25 21:57:53 -0500
+Served asset /logo@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-25 21:59:02 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Compiled home.css  (36ms)  (pid 3129)
+Compiled application.css  (1ms)  (pid 3129)
+Completed 200 OK in 56ms (Views: 55.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_clear.css?body=1" for 127.0.0.1 at 2013-02-25 21:59:02 -0500
+Served asset /_clear.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-25 21:59:02 -0500
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-25 21:59:02 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-25 21:59:02 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-25 21:59:02 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-25 21:59:02 -0500
+Served asset /home.css - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-25 21:59:02 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2013-02-25 21:59:02 -0500
+Served asset /logo@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-25 21:59:04 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.2ms)
+Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_clear.css?body=1" for 127.0.0.1 at 2013-02-25 21:59:04 -0500
+Served asset /_clear.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-25 21:59:04 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-25 21:59:04 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-25 21:59:04 -0500
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-25 21:59:04 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-25 21:59:04 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-25 21:59:33 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (5.2ms)
+Compiled home.css  (55ms)  (pid 3129)
+Compiled application.css  (1ms)  (pid 3129)
+Completed 200 OK in 81ms (Views: 80.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-25 21:59:33 -0500
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-25 21:59:33 -0500
+Served asset /home.css - 200 OK (6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-25 21:59:33 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_clear.css?body=1" for 127.0.0.1 at 2013-02-25 21:59:33 -0500
+Served asset /_clear.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-25 21:59:33 -0500
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-25 21:59:33 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-25 21:59:33 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2013-02-25 21:59:33 -0500
+Served asset /logo@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-25 22:01:39 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.2ms)
+Completed 500 Internal Server Error in 10ms
+
+ActionView::Template::Error (Invalid CSS after "text-shadow": expected expression (e.g. 1px, bold), was ": 0 2px 2px rgb..."
+  (in /Users/derek/Documents/Projects/QBox/app/assets/stylesheets/home.css.sass)):
+    2: <html>
+    3: <head>
+    4:   <title>QBox</title>
+    5:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    6:   <%= javascript_include_tag "application" %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/home.css.sass:2
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1253068939832654627_70358001725160'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-25 22:02:52 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Compiled home.css  (38ms)  (pid 3129)
+Compiled application.css  (1ms)  (pid 3129)
+Completed 200 OK in 76ms (Views: 75.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-25 22:02:52 -0500
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/_clear.css?body=1" for 127.0.0.1 at 2013-02-25 22:02:52 -0500
+Served asset /_clear.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-25 22:02:52 -0500
+Served asset /home.css - 200 OK (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-25 22:02:52 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-25 22:02:52 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-25 22:02:52 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-25 22:02:52 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2013-02-25 22:02:52 -0500
+Served asset /logo@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-25 22:08:04 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (4.8ms)
+Compiled home.css  (59ms)  (pid 3129)
+Compiled application.css  (1ms)  (pid 3129)
+Completed 200 OK in 84ms (Views: 84.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-25 22:08:04 -0500
+Served asset /application.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/_clear.css?body=1" for 127.0.0.1 at 2013-02-25 22:08:04 -0500
+Served asset /_clear.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-25 22:08:04 -0500
+Served asset /home.css - 200 OK (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-25 22:08:04 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-25 22:08:04 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-25 22:08:04 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-25 22:08:04 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2013-02-25 22:08:04 -0500
+Served asset /logo@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-25 22:09:18 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Compiled home.css  (59ms)  (pid 3129)
+Compiled application.css  (1ms)  (pid 3129)
+Completed 200 OK in 79ms (Views: 79.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_clear.css?body=1" for 127.0.0.1 at 2013-02-25 22:09:18 -0500
+Served asset /_clear.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-25 22:09:18 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-25 22:09:18 -0500
+Served asset /home.css - 200 OK (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-25 22:09:18 -0500
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-25 22:09:18 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-25 22:09:18 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2013-02-25 22:09:18 -0500
+Served asset /logo@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-25 22:10:28 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Compiled home.css  (38ms)  (pid 3129)
+Compiled application.css  (1ms)  (pid 3129)
+Completed 200 OK in 61ms (Views: 60.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-25 22:10:28 -0500
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-25 22:10:28 -0500
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-25 22:10:28 -0500
+Served asset /home.css - 200 OK (2ms)
+
+
+Started GET "/assets/_clear.css?body=1" for 127.0.0.1 at 2013-02-25 22:10:28 -0500
+Served asset /_clear.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-25 22:10:28 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-25 22:10:28 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-25 22:10:28 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2013-02-25 22:10:29 -0500
+Served asset /logo@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-25 22:12:03 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Compiled home.css  (39ms)  (pid 3129)
+Compiled application.css  (1ms)  (pid 3129)
+Completed 200 OK in 60ms (Views: 59.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-25 22:12:03 -0500
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-25 22:12:03 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_clear.css?body=1" for 127.0.0.1 at 2013-02-25 22:12:03 -0500
+Served asset /_clear.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-25 22:12:03 -0500
+Served asset /home.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-25 22:12:03 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-25 22:12:03 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-25 22:12:03 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2013-02-25 22:12:03 -0500
+Served asset /logo@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-25 22:13:36 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Compiled home.css  (57ms)  (pid 3129)
+Compiled application.css  (1ms)  (pid 3129)
+Completed 200 OK in 78ms (Views: 77.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-25 22:13:36 -0500
+Served asset /application.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-25 22:13:36 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-25 22:13:36 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-25 22:13:36 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_clear.css?body=1" for 127.0.0.1 at 2013-02-25 22:13:36 -0500
+Served asset /_clear.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-25 22:13:36 -0500
+Served asset /home.css - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-25 22:13:36 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2013-02-25 22:13:36 -0500
+Served asset /logo@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-25 22:13:47 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Compiled home.css  (57ms)  (pid 3129)
+Compiled application.css  (1ms)  (pid 3129)
+Completed 200 OK in 78ms (Views: 77.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-25 22:13:48 -0500
+Served asset /application.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-25 22:13:48 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-25 22:13:48 -0500
+Served asset /home.css - 200 OK (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-25 22:13:48 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_clear.css?body=1" for 127.0.0.1 at 2013-02-25 22:13:48 -0500
+Served asset /_clear.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-25 22:13:48 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-25 22:13:48 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2013-02-25 22:13:48 -0500
+Served asset /logo@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-25 22:14:13 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Compiled home.css  (58ms)  (pid 3129)
+Compiled application.css  (1ms)  (pid 3129)
+Completed 200 OK in 80ms (Views: 79.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-25 22:14:13 -0500
+Served asset /application.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-25 22:14:13 -0500
+Served asset /home.css - 200 OK (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-25 22:14:13 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-25 22:14:13 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_clear.css?body=1" for 127.0.0.1 at 2013-02-25 22:14:13 -0500
+Served asset /_clear.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-25 22:14:13 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2013-02-25 22:14:13 -0500
+Served asset /logo@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-25 22:14:37 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Compiled home.css  (40ms)  (pid 3129)
+Compiled application.css  (1ms)  (pid 3129)
+Completed 200 OK in 61ms (Views: 60.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-25 22:14:37 -0500
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-25 22:14:37 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_clear.css?body=1" for 127.0.0.1 at 2013-02-25 22:14:37 -0500
+Served asset /_clear.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-25 22:14:37 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-25 22:14:37 -0500
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-25 22:14:37 -0500
+Served asset /home.css - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-25 22:14:37 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2013-02-25 22:14:37 -0500
+Served asset /logo@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-25 22:15:31 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Compiled home.css  (40ms)  (pid 3129)
+Compiled application.css  (1ms)  (pid 3129)
+Completed 200 OK in 77ms (Views: 77.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-25 22:15:31 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-25 22:15:31 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_clear.css?body=1" for 127.0.0.1 at 2013-02-25 22:15:31 -0500
+Served asset /_clear.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-25 22:15:31 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-25 22:15:31 -0500
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-25 22:15:31 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-25 22:15:32 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 5.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-25 22:15:32 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_clear.css?body=1" for 127.0.0.1 at 2013-02-25 22:15:32 -0500
+Served asset /_clear.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-25 22:15:32 -0500
+Served asset /home.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-25 22:15:32 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-25 22:15:32 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-25 22:15:32 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2013-02-25 22:15:32 -0500
+Served asset /logo@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-25 22:15:33 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 6ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-25 22:15:33 -0500
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-25 22:15:33 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-25 22:15:33 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-25 22:15:33 -0500
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-25 22:15:33 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-25 22:15:33 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-25 22:15:34 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 23ms (Views: 22.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-25 22:15:34 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_clear.css?body=1" for 127.0.0.1 at 2013-02-25 22:15:34 -0500
+Served asset /_clear.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-25 22:15:34 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-25 22:15:34 -0500
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-25 22:15:34 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-25 22:15:34 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-25 22:15:34 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-25 22:17:07 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Compiled home.css  (41ms)  (pid 3129)
+Compiled application.css  (1ms)  (pid 3129)
+Completed 200 OK in 79ms (Views: 78.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_clear.css?body=1" for 127.0.0.1 at 2013-02-25 22:17:07 -0500
+Served asset /_clear.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-25 22:17:07 -0500
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-25 22:17:07 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-25 22:17:07 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-25 22:17:07 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-25 22:17:07 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-25 22:17:10 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-25 22:17:10 -0500
+Served asset /home.css - 200 OK (11ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-25 22:17:10 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_clear.css?body=1" for 127.0.0.1 at 2013-02-25 22:17:10 -0500
+Served asset /_clear.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-25 22:17:10 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-25 22:17:10 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-25 22:17:10 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-25 22:17:10 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2013-02-25 22:17:10 -0500
+Served asset /logo@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-25 22:17:31 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Compiled home.css  (59ms)  (pid 3129)
+Compiled application.css  (1ms)  (pid 3129)
+Completed 200 OK in 79ms (Views: 79.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-25 22:17:31 -0500
+Served asset /application.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/_clear.css?body=1" for 127.0.0.1 at 2013-02-25 22:17:31 -0500
+Served asset /_clear.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-25 22:17:31 -0500
+Served asset /home.css - 200 OK (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-25 22:17:31 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-25 22:17:31 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-25 22:17:31 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2013-02-25 22:17:31 -0500
+Served asset /logo@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-25 22:19:49 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.2ms)
+Compiled home.css  (42ms)  (pid 3129)
+Compiled application.css  (1ms)  (pid 3129)
+Completed 200 OK in 62ms (Views: 61.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-25 22:19:49 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-25 22:19:49 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-25 22:19:49 -0500
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-25 22:19:49 -0500
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/_clear.css?body=1" for 127.0.0.1 at 2013-02-25 22:19:49 -0500
+Served asset /_clear.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-25 22:19:49 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-25 22:19:50 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 5.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-25 22:19:50 -0500
+Served asset /home.css - 200 OK (7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-25 22:19:50 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-25 22:19:50 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-25 22:19:50 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-25 22:19:50 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-25 22:19:50 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2013-02-25 22:19:50 -0500
+Served asset /logo@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-25 22:20:09 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-25 22:20:09 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-25 22:20:09 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-25 22:20:09 -0500
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_clear.css?body=1" for 127.0.0.1 at 2013-02-25 22:20:09 -0500
+Served asset /_clear.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-25 22:20:09 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-25 22:20:09 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-25 22:21:29 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Compiled home.css  (61ms)  (pid 3129)
+Compiled application.css  (1ms)  (pid 3129)
+Completed 200 OK in 82ms (Views: 81.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-25 22:21:29 -0500
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-25 22:21:29 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-25 22:21:29 -0500
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/_clear.css?body=1" for 127.0.0.1 at 2013-02-25 22:21:29 -0500
+Served asset /_clear.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-25 22:21:29 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-25 22:21:29 -0500
+Served asset /home.css - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-25 22:21:29 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2013-02-25 22:21:29 -0500
+Served asset /logo@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-25 22:26:21 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (5.3ms)
+Compiled home.css  (47ms)  (pid 3129)
+Compiled application.css  (1ms)  (pid 3129)
+Completed 200 OK in 90ms (Views: 89.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-25 22:26:21 -0500
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-25 22:26:21 -0500
+Served asset /home.css - 200 OK (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-25 22:26:21 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_clear.css?body=1" for 127.0.0.1 at 2013-02-25 22:26:21 -0500
+Served asset /_clear.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-25 22:26:21 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-25 22:26:21 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-25 22:26:21 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2013-02-25 22:26:21 -0500
+Served asset /logo@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-25 22:27:01 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_clear.css?body=1" for 127.0.0.1 at 2013-02-25 22:27:01 -0500
+Served asset /_clear.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-25 22:27:01 -0500
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-25 22:27:01 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-25 22:27:01 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-25 22:27:01 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-25 22:27:01 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-25 22:28:25 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Compiled home.css  (67ms)  (pid 3129)
+Compiled application.css  (1ms)  (pid 3129)
+Completed 200 OK in 89ms (Views: 88.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_clear.css?body=1" for 127.0.0.1 at 2013-02-25 22:28:25 -0500
+Served asset /_clear.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-25 22:28:25 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-25 22:28:25 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-25 22:28:25 -0500
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-25 22:28:25 -0500
+Served asset /home.css - 200 OK (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-25 22:28:25 -0500
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-25 22:28:25 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2013-02-25 22:28:25 -0500
+Served asset /logo@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-25 22:30:56 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (6.1ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-25 22:30:56 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-25 22:30:56 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-25 22:30:56 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_clear.css?body=1" for 127.0.0.1 at 2013-02-25 22:30:56 -0500
+Served asset /_clear.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-25 22:30:56 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-25 22:30:56 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-25 22:30:57 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 6ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-25 22:30:57 -0500
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/_clear.css?body=1" for 127.0.0.1 at 2013-02-25 22:30:57 -0500
+Served asset /_clear.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-25 22:30:57 -0500
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-25 22:30:57 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-25 22:30:57 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-25 22:30:57 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-25 22:30:57 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2013-02-25 22:30:57 -0500
+Served asset /logo@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-25 22:31:44 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.2ms)
+Compiled home.css  (65ms)  (pid 3129)
+Compiled application.css  (1ms)  (pid 3129)
+Completed 200 OK in 88ms (Views: 88.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-25 22:31:44 -0500
+Served asset /application.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-25 22:31:44 -0500
+Served asset /home.css - 200 OK (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-25 22:31:44 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-25 22:31:44 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_clear.css?body=1" for 127.0.0.1 at 2013-02-25 22:31:44 -0500
+Served asset /_clear.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-25 22:31:44 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-25 22:31:44 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/thumbs@2x.png" for 127.0.0.1 at 2013-02-25 22:31:44 -0500
+Served asset /thumbs@2x.png - 200 OK (6ms)
+
+
+Started GET "/assets/thumbsglow@2x.png" for 127.0.0.1 at 2013-02-25 22:31:44 -0500
+Served asset /thumbsglow@2x.png - 200 OK (5ms)
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2013-02-25 22:31:44 -0500
+Served asset /logo@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-25 22:32:23 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Compiled home.css  (66ms)  (pid 3129)
+Compiled application.css  (1ms)  (pid 3129)
+Completed 200 OK in 87ms (Views: 87.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-25 22:32:23 -0500
+Served asset /application.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-25 22:32:23 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-25 22:32:23 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-25 22:32:23 -0500
+Served asset /home.css - 200 OK (2ms)
+
+
+Started GET "/assets/_clear.css?body=1" for 127.0.0.1 at 2013-02-25 22:32:23 -0500
+Served asset /_clear.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-25 22:32:23 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-25 22:32:23 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2013-02-25 22:32:24 -0500
+Served asset /logo@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/thumbs@2x.png" for 127.0.0.1 at 2013-02-25 22:32:24 -0500
+Served asset /thumbs@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/thumbsglow@2x.png" for 127.0.0.1 at 2013-02-25 22:32:24 -0500
+Served asset /thumbsglow@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-25 22:34:13 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Compiled home.css  (67ms)  (pid 3129)
+Compiled application.css  (1ms)  (pid 3129)
+Completed 200 OK in 87ms (Views: 87.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_clear.css?body=1" for 127.0.0.1 at 2013-02-25 22:34:13 -0500
+Served asset /_clear.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-25 22:34:13 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-25 22:34:13 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-25 22:34:13 -0500
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-25 22:34:13 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-25 22:34:13 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-25 22:34:14 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 5.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-25 22:34:14 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-25 22:34:14 -0500
+Served asset /home.css - 200 OK (4ms)
+
+
+Started GET "/assets/_clear.css?body=1" for 127.0.0.1 at 2013-02-25 22:34:14 -0500
+Served asset /_clear.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-25 22:34:14 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-25 22:34:14 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-25 22:34:14 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-25 22:34:14 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2013-02-25 22:34:14 -0500
+Served asset /logo@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/thumbs@2x.png" for 127.0.0.1 at 2013-02-25 22:34:14 -0500
+Served asset /thumbs@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/thumbsglow@2x.png" for 127.0.0.1 at 2013-02-25 22:34:14 -0500
+Served asset /thumbsglow@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-25 22:34:52 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Compiled home.css  (68ms)  (pid 3129)
+Compiled application.css  (1ms)  (pid 3129)
+Completed 200 OK in 89ms (Views: 88.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-25 22:34:52 -0500
+Served asset /application.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-25 22:34:52 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-25 22:34:52 -0500
+Served asset /home.css - 200 OK (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-25 22:34:52 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_clear.css?body=1" for 127.0.0.1 at 2013-02-25 22:34:52 -0500
+Served asset /_clear.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-25 22:34:52 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-25 22:34:52 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2013-02-25 22:34:52 -0500
+Served asset /logo@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/thumbs@2x.png" for 127.0.0.1 at 2013-02-25 22:34:52 -0500
+Served asset /thumbs@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/thumbsglow@2x.png" for 127.0.0.1 at 2013-02-25 22:34:52 -0500
+Served asset /thumbsglow@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/thumbs@2x.png" for 127.0.0.1 at 2013-02-25 22:34:58 -0500
+Served asset /thumbs@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/thumbs@2x.png" for 127.0.0.1 at 2013-02-25 22:34:59 -0500
+Served asset /thumbs@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/thumbs@2x.png" for 127.0.0.1 at 2013-02-25 22:34:59 -0500
+Served asset /thumbs@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/thumbs@2x.png" for 127.0.0.1 at 2013-02-25 22:35:00 -0500
+Served asset /thumbs@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/thumbs@2x.png" for 127.0.0.1 at 2013-02-25 22:35:01 -0500
+Served asset /thumbs@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/thumbs@2x.png" for 127.0.0.1 at 2013-02-25 22:35:04 -0500
+Served asset /thumbs@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/thumbs@2x.png" for 127.0.0.1 at 2013-02-25 22:35:10 -0500
+Served asset /thumbs@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-25 22:35:10 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Compiled home.css  (51ms)  (pid 3129)
+Compiled application.css  (1ms)  (pid 3129)
+Completed 200 OK in 89ms (Views: 89.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-25 22:35:11 -0500
+Served asset /home.css - 200 OK (13ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-25 22:35:11 -0500
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-25 22:35:11 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-25 22:35:11 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_clear.css?body=1" for 127.0.0.1 at 2013-02-25 22:35:11 -0500
+Served asset /_clear.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-25 22:35:11 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-25 22:35:11 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/thumbs@2x.png" for 127.0.0.1 at 2013-02-25 22:35:11 -0500
+Served asset /thumbs@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2013-02-25 22:35:11 -0500
+Served asset /logo@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/thumbsglow@2x.png" for 127.0.0.1 at 2013-02-25 22:35:11 -0500
+Served asset /thumbsglow@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-25 22:35:59 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.2ms)
+Compiled home.css  (70ms)  (pid 3129)
+Compiled application.css  (1ms)  (pid 3129)
+Completed 200 OK in 90ms (Views: 90.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_clear.css?body=1" for 127.0.0.1 at 2013-02-25 22:35:59 -0500
+Served asset /_clear.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-25 22:35:59 -0500
+Served asset /application.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-25 22:35:59 -0500
+Served asset /home.css - 200 OK (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-25 22:35:59 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-25 22:35:59 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-25 22:35:59 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-25 22:35:59 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2013-02-25 22:35:59 -0500
+Served asset /logo@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/thumbs@2x.png" for 127.0.0.1 at 2013-02-25 22:35:59 -0500
+Served asset /thumbs@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/thumbsglow@2x.png" for 127.0.0.1 at 2013-02-25 22:35:59 -0500
+Served asset /thumbsglow@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-25 22:36:18 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Compiled home.css  (50ms)  (pid 3129)
+Compiled application.css  (1ms)  (pid 3129)
+Completed 200 OK in 88ms (Views: 87.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_clear.css?body=1" for 127.0.0.1 at 2013-02-25 22:36:18 -0500
+Served asset /_clear.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-25 22:36:18 -0500
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-25 22:36:18 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-25 22:36:18 -0500
+Served asset /home.css - 200 OK (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-25 22:36:18 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-25 22:36:18 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2013-02-25 22:36:18 -0500
+Served asset /logo@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/thumbs@2x.png" for 127.0.0.1 at 2013-02-25 22:36:18 -0500
+Served asset /thumbs@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/thumbsglow@2x.png" for 127.0.0.1 at 2013-02-25 22:36:18 -0500
+Served asset /thumbsglow@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/thumbs@2x.png" for 127.0.0.1 at 2013-02-25 22:36:29 -0500
+Served asset /thumbs@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/thumbs@2x.png" for 127.0.0.1 at 2013-02-25 22:36:29 -0500
+Served asset /thumbs@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/thumbs@2x.png" for 127.0.0.1 at 2013-02-25 22:36:29 -0500
+Served asset /thumbs@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/thumbs@2x.png" for 127.0.0.1 at 2013-02-25 22:36:30 -0500
+Served asset /thumbs@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/thumbs@2x.png" for 127.0.0.1 at 2013-02-25 22:36:30 -0500
+Served asset /thumbs@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/thumbs@2x.png" for 127.0.0.1 at 2013-02-25 22:36:31 -0500
+Served asset /thumbs@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/thumbs@2x.png" for 127.0.0.1 at 2013-02-25 22:36:38 -0500
+Served asset /thumbs@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/thumbs@2x.png" for 127.0.0.1 at 2013-02-25 22:36:47 -0500
+Served asset /thumbs@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-25 22:36:47 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Compiled home.css  (69ms)  (pid 3129)
+Compiled application.css  (1ms)  (pid 3129)
+Completed 200 OK in 89ms (Views: 88.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_clear.css?body=1" for 127.0.0.1 at 2013-02-25 22:36:47 -0500
+Served asset /_clear.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-25 22:36:47 -0500
+Served asset /home.css - 200 OK (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-25 22:36:47 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-25 22:36:47 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-25 22:36:47 -0500
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-25 22:36:47 -0500
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-25 22:36:47 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2013-02-25 22:36:47 -0500
+Served asset /logo@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/thumbs@2x.png" for 127.0.0.1 at 2013-02-25 22:36:47 -0500
+Served asset /thumbs@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/thumbsglow@2x.png" for 127.0.0.1 at 2013-02-25 22:36:47 -0500
+Served asset /thumbsglow@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-25 22:41:36 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.2ms)
+Compiled home.js  (0ms)  (pid 3129)
+Compiled application.js  (9ms)  (pid 3129)
+Completed 200 OK in 25ms (Views: 24.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-25 22:41:36 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-25 22:41:36 -0500
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_clear.css?body=1" for 127.0.0.1 at 2013-02-25 22:41:36 -0500
+Served asset /_clear.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-25 22:41:36 -0500
+Served asset /home.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-25 22:41:36 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-25 22:41:36 -0500
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-25 22:41:42 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_clear.css?body=1" for 127.0.0.1 at 2013-02-25 22:41:42 -0500
+Served asset /_clear.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-25 22:41:42 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-25 22:41:42 -0500
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-25 22:41:42 -0500
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-25 22:41:42 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-25 22:41:42 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-25 22:41:42 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-25 22:41:43 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_clear.css?body=1" for 127.0.0.1 at 2013-02-25 22:41:43 -0500
+Served asset /_clear.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-25 22:41:43 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-25 22:41:43 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-25 22:41:43 -0500
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-25 22:41:43 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-25 22:41:43 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-25 22:43:00 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 6ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-25 22:43:01 -0500
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-25 22:43:01 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-25 22:43:01 -0500
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_clear.css?body=1" for 127.0.0.1 at 2013-02-25 22:43:01 -0500
+Served asset /_clear.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-25 22:43:01 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-25 22:43:01 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-25 22:43:01 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-25 22:43:02 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_clear.css?body=1" for 127.0.0.1 at 2013-02-25 22:43:02 -0500
+Served asset /_clear.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-25 22:43:02 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-25 22:43:02 -0500
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-25 22:43:02 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-25 22:43:02 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-25 22:43:02 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-25 22:43:03 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 5.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-25 22:43:03 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_clear.css?body=1" for 127.0.0.1 at 2013-02-25 22:43:03 -0500
+Served asset /_clear.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-25 22:43:03 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-25 22:43:03 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-25 22:43:03 -0500
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-25 22:43:03 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-25 22:43:04 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 5.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-02-25 22:43:04 -0500
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/_clear.css?body=1" for 127.0.0.1 at 2013-02-25 22:43:04 -0500
+Served asset /_clear.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-25 22:43:04 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-02-25 22:43:04 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-25 22:43:04 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-25 22:43:04 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-25 22:43:04 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo@2x.png" for 127.0.0.1 at 2013-02-25 22:43:04 -0500
+Served asset /logo@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/thumbsglow@2x.png" for 127.0.0.1 at 2013-02-25 22:43:04 -0500
+Served asset /thumbsglow@2x.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/thumbs@2x.png" for 127.0.0.1 at 2013-02-25 22:43:04 -0500
+Served asset /thumbs@2x.png - 304 Not Modified (0ms)
