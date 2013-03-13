@@ -24,3 +24,9 @@ dump/
 *.zip
 .env
 public/assets
+
+*.sassc
+
+*.sassc
+
+app/assets/stylesheets/_clear.sass

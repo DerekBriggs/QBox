@@ -1,7 +1,9 @@
-$('header').noisy({
+$(document).ready(function(){
+  $('body, header').noisy({
     'intensity' : 1, 
-    'size' : '50', 
-    'opacity' : 0.05, 
+    'size' : '100', 
+    'opacity' : 0.035, 
     'fallback' : '', 
-    'monochrome' : false
-}).css('background-color', '#2e2f2f');
+    'monochrome' : true
+  }).css('background-color', '#2d2b2a');
+});

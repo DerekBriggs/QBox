@@ -11,5 +11,6 @@
 // GO AFTER THE REQUIRES BELOW.
 //
 //= require jquery
+//= require jquery.noisy.min
 //= require jquery_ujs
 //= require_tree .
