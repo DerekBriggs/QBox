@@ -6,4 +6,7 @@ $(document).ready(function(){
     'fallback' : '', 
     'monochrome' : true
   }).css('background-color', '#2d2b2a');
+
+  window.top.scrollTo(0, 0);
+
 });
