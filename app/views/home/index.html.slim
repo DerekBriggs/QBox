@@ -1,5 +1,5 @@
 header
-  .search.search-closed
+  .search
     input type="search" id="term" name="term" autocomplete="off" placeholder="Search for a Song"
   h1.logo
   #nowPlaying
@@ -31,11 +31,11 @@ section.room-container.room
     .userInfo
       #avatar
       #person Derek Briggs
-      .theirRating#up
+      .theirRating#down
     .userInfo
       #avatar
       #person Mike Danko
-      .theirRating#up
+      .theirRating#down
     .userInfo
       #avatar
       #person Mike Danko
@@ -56,7 +56,7 @@ section.room-container.room
   section.playlist
     = link_to '#' do
       .search-in-queue + Search for Music to Add to the Playlist
-    #queue
+    .queue
       .likes 14 <br>LIKES
       .coverArt
       .info
@@ -66,7 +66,7 @@ section.room-container.room
       .rating
         #thumbsDown
         #thumbsUp
-    #queue
+    .queue
       .likes 11<br>LIKES
       .coverArt
       .info
@@ -76,7 +76,7 @@ section.room-container.room
       .rating
         #thumbsDown
         #thumbsUp
-    #queue
+    .queue
       .likes 7<br>LIKES
       .coverArt
       .info
@@ -86,7 +86,7 @@ section.room-container.room
       .rating
         #thumbsDown
         #thumbsUp
-    #queue
+    .queue
       .likes 6<br>LIKES
       .coverArt
       .info
@@ -96,7 +96,7 @@ section.room-container.room
       .rating
         #thumbsDown
         #thumbsUp
-    #queue
+    .queue
       .likes 6<br>LIKES
       .coverArt
       .info
@@ -106,7 +106,7 @@ section.room-container.room
       .rating
         #thumbsDown
         #thumbsUp
-    #queue
+    .queue
       .likes 5<br>LIKES
       .coverArt
       .info
@@ -116,7 +116,7 @@ section.room-container.room
       .rating
         #thumbsDown
         #thumbsUp
-    #queue
+    .queue
       .likes 2<br>LIKES
       .coverArt
       .info
@@ -126,7 +126,7 @@ section.room-container.room
       .rating
         #thumbsDown
         #thumbsUp
-    #queue
+    .queue
       .likes 1<br>LIKE
       .coverArt
       .info
@@ -139,7 +139,7 @@ section.room-container.room
     = link_to '#' do
       .search-in-queue + Search for Music to Add to the Playlist
     .history Recently Played
-    #queue.recentlyPlayed
+    .queue.recentlyPlayed
       .likes 6<br>LIKES
       .coverArt
       .info
@@ -149,7 +149,7 @@ section.room-container.room
       .rating
         #thumbsDown
         #thumbsUp
-    #queue.recentlyPlayed
+    .queue.recentlyPlayed
       .likes 6<br>LIKES
       .coverArt
       .info
@@ -159,7 +159,7 @@ section.room-container.room
       .rating
         #thumbsDown
         #thumbsUp
-    #queue.recentlyPlayed
+    .queue.recentlyPlayed
       .likes 5<br>LIKES
       .coverArt
       .info
@@ -169,7 +169,7 @@ section.room-container.room
       .rating
         #thumbsDown
         #thumbsUp
-    #queue.recentlyPlayed
+    .queue.recentlyPlayed
       .likes 2<br>LIKES
       .coverArt
       .info
@@ -179,7 +179,7 @@ section.room-container.room
       .rating
         #thumbsDown
         #thumbsUp
-    #queue.recentlyPlayed
+    .queue.recentlyPlayed
       .likes 1<br>LIKE
       .coverArt
       .info
