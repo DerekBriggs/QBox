@@ -1,10 +1,11 @@
+@import "bourbon"
 @import "clear"
-@import "compass/css3"
 
 $text-shadow: 0 2px 2px rgba(0,0,0,.4)
 
 body, html
   height: 100%
+  +transition (all .3s ease-in-out)
 
 body
   font-family: lucida grande
@@ -17,6 +18,61 @@ header
   background: #2e2f2f
   padding: 20px 0
   +box-shadow (0 2px 6px rgba(0,0,0,.4))
+
+input[type="search"], textarea, input[type="search"]
+  -webkit-appearance: none
+  color: #cdcdcd
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.4)
+  width: 100%
+  box-sizing: border-box
+  display: block
+  margin: auto
+  margin-bottom: 20px
+  border: none
+  box-shadow: none
+  padding: 20px
+  text-align: center
+  background: rgba(0,0,0,.2)
+  font-weight: bold
+  font-size: 14px
+  +transition (all .05s ease-in-out)
+  +box-shadow (0 1px 0 rgba(255, 255, 255, 0.05), inset 0 1px 2px rgba(0, 0, 0, 0.3))
+  overflow: hidden
+  opacity: 0
+
+  &:focus
+    outline: none
+    background: rgba(0,0,0,.2)
+    font-weight: bold
+
+  &::-webkit-input-placeholder
+    color: #515151
+  &::-moz-placeholder
+    color: #515151
+  &:-ms-input-placeholder 
+    color: #515151
+  &:-moz-placeholder
+    color: #515151
+
+.search
+  +transition (all .3s ease-in-out)
+  height: 0
+
+.search-open
+  height: 80px
+
+.show-search
+  opacity: 1
+
+  input
+    opacity: 1
+    +transition (all .3s ease-in-out)
+    transition-delay: .2s
+    -moz-transition-delay: .2s
+    -webkit-transition-delay: .2s
+    -o-transition-delay: .2s
+
+
 
 .logo
   float: right
@@ -69,7 +125,7 @@ header
   background: #a7a7a7
   display: inline-block
   vertical-align: top
-  +border-radius (4px)
+  border-radius: 4px
   +box-shadow (0 1px 3px rgba(0,0,0,.4))
 
 .info
@@ -140,9 +196,18 @@ header
     display: inline-block
     vertical-align: top
 
-section.room
+.room-container
+  +transition (all .3s ease-in-out)
+
+.room
   position: relative
   top: 115px
+  width: 100%
+  height: 100%
+
+.room-search
+  position: relative
+  top: 195px
   width: 100%
   height: 100%
 
@@ -156,13 +221,22 @@ section.playlist
   text-shadow: $text-shadow
   width: 65%
 
-.history
+.search-in-queue
   font-size: 14px
   font-weight: bold
   color: #cdcdcd
   text-shadow: $text-shadow
   text-align: center
   padding: 20px 0
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2)
+
+.history
+  font-size: 14px
+  font-weight: bold
+  color: #515151
+  text-shadow: $text-shadow
+  text-align: center
+  padding: 10px 0
   background: rgba(0, 0, 0, 0.2)
   +box-shadow (0 1px 0 rgba(255, 255, 255, 0.05), inset 0 1px 0 rgba(0, 0, 0, 0.4))
   border-bottom: 1px solid rgba(0, 0, 0, 0.2)
@@ -170,8 +244,8 @@ section.playlist
 #queue
   margin-top: 20px
   padding-bottom: 20px
-  +box-shadow (0 1px 0 rgba(255, 255, 255, 0.05))
   border-bottom: 1px solid rgba(0, 0, 0, 0.2)
+  +box-shadow (0 1px 0 rgba(255, 255, 255, 0.05))
 
   &.recentlyPlayed
     opacity: .3
@@ -231,7 +305,7 @@ hr
   height: 50px
   background: #a7a7a7
   display: inline-block
-  +border-radius (4px)
+  border-radius: 4px
   +box-shadow (0 1px 3px rgba(0,0,0,.4))
   margin-right: 20px
 

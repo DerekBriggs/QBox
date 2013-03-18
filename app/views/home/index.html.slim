@@ -1,4 +1,6 @@
 header
+  .search.search-closed
+    input type="search" id="term" name="term" autocomplete="off" placeholder="Search for a Song"
   h1.logo
   #nowPlaying
     .rating
@@ -11,7 +13,7 @@ header
       #artist Skrillex
     
 
-section.room
+section.room-container.room
 
   section.roomInfo
     #name Neo Playlist
@@ -52,6 +54,8 @@ section.room
 
 
   section.playlist
+    = link_to '#' do
+      .search-in-queue + Search for Music to Add to the Playlist
     #queue
       .likes 14 <br>LIKES
       .coverArt
@@ -132,6 +136,8 @@ section.room
       .rating
         #thumbsDown
         #thumbsUp
+    = link_to '#' do
+      .search-in-queue + Search for Music to Add to the Playlist
     .history Recently Played
     #queue.recentlyPlayed
       .likes 6<br>LIKES
