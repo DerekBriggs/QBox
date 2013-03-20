@@ -2,6 +2,7 @@
 @import "clear"
 
 $text-shadow: 0 2px 2px rgba(0,0,0,.4)
+$text-shadow-inset: 0 -1px 0 rgba(0, 0, 0, .6)
 
 body, html
   height: 100%
@@ -35,7 +36,7 @@ input[type="search"], textarea, input[type="search"]
   background: rgba(0,0,0,.2)
   font-weight: bold
   font-size: 14px
-  +transition (all .3s ease-in-out)
+  +transition (all .3s ease-in)
   +box-shadow (0 1px 0 rgba(255, 255, 255, 0.05), inset 0 1px 2px rgba(0, 0, 0, 0.3))
   overflow: hidden
   opacity: 0
@@ -55,7 +56,7 @@ input[type="search"], textarea, input[type="search"]
     color: #515151
 
 .search
-  +transition (all .3s ease-in-out)
+  +transition (all .3s ease-in)
   height: 0
 
   input
@@ -71,13 +72,6 @@ input[type="search"], textarea, input[type="search"]
   input
     opacity: 1
     height: 60px
-    +transition (all .3s ease-in-out)
-    // transition-delay: .2s
-    // -moz-transition-delay: .2s
-    // -webkit-transition-delay: .2s
-    // -o-transition-delay: .2s
-
-
 
 .logo
   float: right
@@ -86,7 +80,10 @@ input[type="search"], textarea, input[type="search"]
   width: 164px
   height: 54px
   background-size: 100%
-  margin: 18px 40px 0 0
+  margin: 17px 40px 0 0
+
+  &:hover
+    +animation (tada 1s linear 1)
 
 #nowPlaying
   margin-left: 40px
@@ -96,6 +93,9 @@ input[type="search"], textarea, input[type="search"]
     vertical-align: top
     margin: 24px 20px 0 0
     float: none
+
+  .info
+    margin: 7px 0 0 0
 
 .likes
   font-size: 14px
@@ -182,7 +182,7 @@ input[type="search"], textarea, input[type="search"]
   margin: 24px 40px 0 0
   float: right
 
-#thumbsDown
+.thumbsDown
   background: image-url('thumbs-down@2x.png')
   width: 24px
   height: 25px
@@ -190,19 +190,48 @@ input[type="search"], textarea, input[type="search"]
   display: inline-block
   vertical-align: top
   margin-right: 6px
-  cursor: pointer
 
-#thumbsUp
-  background: image-url('thumbs-up@2x.png')
+.thumbsDown.selected
+  background: image-url('thumbs-down-glow@2x.png')
   width: 24px
   height: 24px
   background-size: 100%
   display: inline-block
   vertical-align: top
-  cursor: pointer
+  margin-right: 6px
+  +animation (tada 1s linear 1)
+
+.thumbsUp
+  background: image-url('thumbs-up@2x.png')
+  width: 24px
+  height: 25px
+  background-size: 100%
+  display: inline-block
+  vertical-align: top
+
+.thumbsUp.selected
+  background: image-url('thumbs-up-glow@2x.png')
+  width: 24px
+  height: 24px
+  background-size: 100%
+  display: inline-block
+  vertical-align: top
+  +animation (tada 1s linear 1)
+
++keyframes(tada)
+  0%
+    -webkit-transform: scale(1)
+  10%, 20%
+    -webkit-transform: scale(0.8) rotate(-6deg)
+  30%, 50%, 70%, 90%
+    -webkit-transform: scale(1.1) rotate(6deg)
+  40%, 60%, 80%
+    -webkit-transform: scale(1.1) rotate(-6deg)
+  100%
+    -webkit-transform: scale(1) rotate(0)
 
 .room-container
-  +transition (all .3s ease-in-out)
+  +transition (all .3s ease-in)
 
 .room
   position: relative
@@ -234,6 +263,7 @@ section.playlist
   text-align: center
   padding: 20px 0
   border-bottom: 1px solid rgba(0, 0, 0, 0.2)
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.05)
 
 .history
   font-size: 14px
@@ -257,6 +287,21 @@ section.playlist
     +box-shadow (0 1px 0 rgba(255, 255, 255, 0.18))
     border-bottom: 1px solid rgba(0, 0, 0, 0.7)
 
+.room-info-toggle
+  padding: 12px 0 10px 0
+  font-size: 14px
+  font-weight: bold
+  color: #cdcdcd
+  text-shadow: $text-shadow-inset
+  background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.1) 100%)
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.1)))
+  background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.1) 100%)
+  background: -o-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.1) 100%)
+  background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.1) 100%)
+  background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.1) 100%)
+  text-align: center
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2)
+  display: none
 
 section.roomInfo
   text-shadow: $text-shadow
@@ -269,6 +314,7 @@ section.roomInfo
   background: rgba(0,0,0,.2)
   -webkit-overflow-scrolling: touch
   width: 35%
+  +transition (all .3s ease-in)
   +box-shadow (1px 0 0 rgba(255, 255, 255, 0.05), inset -1px 0 4px rgba(0,0,0,.3))
 
   
@@ -312,12 +358,17 @@ hr
   display: inline-block
   border-radius: 4px
   +box-shadow (0 1px 3px rgba(0,0,0,.4))
-  margin-right: 20px
+  margin-right: 23px
 
 #person
   display: inline-block
   vertical-align: top
   margin-top: 18px
+  width: 54%
+  height: 18px
+  white-space: nowrap
+  overflow: hidden
+  text-overflow: ellipsis
 
 .theirRating
   width: 13px
@@ -337,16 +388,81 @@ hr
     margin-top: 18px
 
 
+@media screen and (max-width: 768px)
 
+  .room-info-toggle
+    display: block
 
+  .likes
+    margin: 22px 27px 0 27px
 
+  section.roomInfo
+    position: static
+    text-shadow: $text-shadow
+    padding: 0
+    background: rgba(0,0,0,.2)
+    width: 100%
+    overflow: hidden
+    +box-shadow (1px 0 0 rgba(255, 255, 255, 0.05), inset -1px 0 4px rgba(0,0,0,.3))
+    +transition (all .3s ease-in)
+    opacity: 0
+    height: 0
 
+    &.visible
+      padding: 20px 40px 0 40px
+      height: auto
+      opacity: 1
 
+  section.playlist
+    text-shadow: $text-shadow
+    width: 100%
+    position: static
 
+@media screen and (max-width: 606px)
 
+  .logo
+    background: image-url('logo-icon@2x.png')
+    width: 44px
+    height: 54px
+    background-size: 100%
+    margin: 12px 40px 0 0
 
+  .info
+    width: 32%
 
+@media screen and (max-width: 520px)
 
+  .coverArt
+    display: none
+
+  section.roomInfo
+    &.visible
+      padding: 20px 20px 0 20px
+      height: auto
+      opacity: 1
+
+  .likes
+    margin: 22px 16px 0 18px
+
+  .info
+    width: 50%
+
+  .logo
+    margin: 12px 20px 0 0
+
+  #nowPlaying
+    margin-left: 20px
+
+  .rating
+    margin: 24px 20px 0 0
+
+@media screen and (max-width: 440px)
+
+  .likes
+    display: none
+
+  .info
+    margin-left: 20px
 
 
 

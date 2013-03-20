@@ -1,11 +1,12 @@
 header
   .search
     input type="search" id="term" name="term" autocomplete="off" placeholder="Search for a Song"
-  h1.logo
+  = link_to root_url do
+    h1.logo
   #nowPlaying
     .rating
-      #thumbsDown
-      #thumbsUp
+      a.thumbsDown href='#'
+      a.thumbsUp href='#'
     .coverArt
     .info
       #track Make is Bun Dem
@@ -14,6 +15,8 @@ header
     
 
 section.room-container.room
+  = link_to '#' do
+    .room-info-toggle Playlist Info
 
   section.roomInfo
     #name Neo Playlist
@@ -30,7 +33,7 @@ section.room-container.room
       #person Sean Knox
     .userInfo
       #avatar
-      #person Derek Briggs
+      #person kjhfgsadkjf kjhfsdjhfsaf
       .theirRating#down
     .userInfo
       #avatar
@@ -42,7 +45,7 @@ section.room-container.room
       .theirRating#up
     .userInfo
       #avatar
-      #person Sean Knox
+      #person Sfytrca kfjagfSDK
     .userInfo
       #avatar
       #person Derek Briggs
@@ -55,67 +58,20 @@ section.room-container.room
 
   section.playlist
     = link_to '#' do
-      .search-in-queue + Search for Music to Add to the Playlist
-    .queue
-      .likes 14 <br>LIKES
-      .coverArt
-      .info
-        #track Timeless
-        #album The Sectret
-        #artist The Airborne Toxic Event
-      .rating
-        #thumbsDown
-        #thumbsUp
-    .queue
-      .likes 11<br>LIKES
-      .coverArt
-      .info
-        #track Thrift Shop (feat. Wanz)
-        #album The Heist
-        #artist Macklemore & Ryan Lewis
-      .rating
-        #thumbsDown
-        #thumbsUp
-    .queue
-      .likes 7<br>LIKES
-      .coverArt
-      .info
-        #track Us Against the World
-        #album Mylo Xyloto
-        #artist Coldplay
-      .rating
-        #thumbsDown
-        #thumbsUp
-    .queue
-      .likes 6<br>LIKES
-      .coverArt
-      .info
-        #track Sweater Weather
-        #album I'm Sorry...
-        #artist The Neighbourhood
-      .rating
-        #thumbsDown
-        #thumbsUp
-    .queue
-      .likes 6<br>LIKES
-      .coverArt
-      .info
-        #track You Wont Feel A Thing
-        #album Science & Faith
-        #artist The Script
-      .rating
-        #thumbsDown
-        #thumbsUp
-    .queue
-      .likes 5<br>LIKES
-      .coverArt
-      .info
-        #track Pins And Needles
-        #album Armistice
-        #artist MuteMath
-      .rating
-        #thumbsDown
-        #thumbsUp
+      .search-in-queue + Add Music to the Playlist
+
+    = render 'song', likes: 14, track: 'Timeless', album: 'The Secret', artist: 'The Airborne Toxic Event'
+
+    = render 'song', likes: 11, track: 'Thrift Shop (feat. Wanz)', album: 'The Heist', artist: 'Macklemore & Ryan Lewis'
+
+    = render 'song', likes: 7, track: 'Us Against the World', album: 'Mylo Xyloto', artist: 'Coldplay'
+
+    = render 'song', likes: 6, track: 'Sweater Weather', album: 'I\'m Sorry...', artist: 'The Neighbourhood'
+
+    = render 'song', likes: 6, track: 'You Wont Feel A Thing', album: 'Science & Faith', artist: 'The Script'
+
+    = render 'song', likes: 5, track: 'Pins And Needles', album: 'Armistice', artist: 'MuteMath'
+
     .queue
       .likes 2<br>LIKES
       .coverArt
@@ -124,8 +80,8 @@ section.room-container.room
         #album Tegan And Sara Remixed
         #artist Tegan and Sara
       .rating
-        #thumbsDown
-        #thumbsUp
+        a.thumbsDown href='#'
+        a.thumbsUp href='#'
     .queue
       .likes 1<br>LIKE
       .coverArt
@@ -134,10 +90,10 @@ section.room-container.room
         #album Armistice
         #artist MuteMath
       .rating
-        #thumbsDown
-        #thumbsUp
+        a.thumbsDown href='#'
+        a.thumbsUp href='#'
     = link_to '#' do
-      .search-in-queue + Search for Music to Add to the Playlist
+      .search-in-queue + Add Music to the Playlist
     .history Recently Played
     .queue.recentlyPlayed
       .likes 6<br>LIKES
@@ -147,8 +103,8 @@ section.room-container.room
         #album Armistice
         #artist MuteMath
       .rating
-        #thumbsDown
-        #thumbsUp
+        a.thumbsDown href='#'
+        a.thumbsUp href='#'
     .queue.recentlyPlayed
       .likes 6<br>LIKES
       .coverArt
@@ -157,8 +113,8 @@ section.room-container.room
         #album Armistice
         #artist MuteMath
       .rating
-        #thumbsDown
-        #thumbsUp
+        a.thumbsDown href='#'
+        a.thumbsUp href='#'
     .queue.recentlyPlayed
       .likes 5<br>LIKES
       .coverArt
@@ -167,8 +123,8 @@ section.room-container.room
         #album Armistice
         #artist MuteMath
       .rating
-        #thumbsDown
-        #thumbsUp
+        a.thumbsDown href='#'
+        a.thumbsUp href='#'
     .queue.recentlyPlayed
       .likes 2<br>LIKES
       .coverArt
@@ -177,8 +133,8 @@ section.room-container.room
         #album Armistice
         #artist MuteMath
       .rating
-        #thumbsDown
-        #thumbsUp
+        a.thumbsDown href='#'
+        a.thumbsUp href='#'
     .queue.recentlyPlayed
       .likes 1<br>LIKE
       .coverArt
@@ -187,5 +143,5 @@ section.room-container.room
         #album Armistice
         #artist MuteMath
       .rating
-        #thumbsDown
-        #thumbsUp
+        a.thumbsDown href='#'
+        a.thumbsUp href='#'
