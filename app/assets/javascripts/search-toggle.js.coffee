@@ -1,9 +1,10 @@
-$ -> 
+$ ->
   $('.search-in-queue').click (e)->
     e.preventDefault()
     $('.search').toggleClass('search-open').toggleClass('show-search');
     $('section.room-container').toggleClass('room room-search');
-    # $('#term').focus()
+    $('.search').on "transitionend webkitTransitionEnd oTransitionEnd MSTransitionEnd", ->
+      $('#term').focus()
 
   $('.rating a').click (e) ->
     e.preventDefault()
