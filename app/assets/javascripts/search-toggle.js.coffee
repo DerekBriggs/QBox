@@ -1,6 +1,7 @@
 $ ->
   $('.search-in-queue').click (e)->
     e.preventDefault()
+    $('header').toggleClass('expanded');
     $('.search').toggleClass('search-open').toggleClass('show-search');
     $('.search-results').toggleClass('search-results-open').toggleClass('show-search-results');
     $('section.room-container').toggleClass('room room-search');
