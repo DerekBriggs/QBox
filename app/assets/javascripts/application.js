@@ -14,3 +14,4 @@
 //= require jquery.noisy.min
 //= require jquery_ujs
 //= require_tree .
+//= require jquery.jscrollpane.min

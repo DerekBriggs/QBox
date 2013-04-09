@@ -9,4 +9,8 @@ $(document).ready(function(){
 
   window.top.scrollTo(0, 0);
 
+  if (!$.browser.webkit) {
+    $('body').jScrollPane();
+    }
+  });
 });

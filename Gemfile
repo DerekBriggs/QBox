@@ -9,6 +9,7 @@ gem 'sqlite3'
 gem 'haml'
 gem 'slim-rails'
 gem 'bourbon'
+gem 'thin'
 
 # Gems used only for assets and not required
 # in production environments by default.

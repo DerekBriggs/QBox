@@ -1,10 +1,12 @@
 $ ->
-  $('.search-in-queue').click (e)->
+  $('.search-in-queue, .close-arrow').click (e)->
     e.preventDefault()
     $('header').toggleClass('expanded');
     $('.search').toggleClass('search-open').toggleClass('show-search');
     $('.search-results').toggleClass('search-results-open').toggleClass('show-search-results');
-    $('section.room-container').toggleClass('room room-search');
+    $('section.room-container').toggleClass('hide');
+    $('h1.logo').toggleClass('hide');
+    $('.close-arrow').toggleClass('hide');
     $('.search').on "transitionend webkitTransitionEnd oTransitionEnd MSTransitionEnd", ->
       $('#term').focus()
 
