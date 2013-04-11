@@ -556,7 +556,7 @@ hr
       margin-left: 0px
 
 @-moz-document url-prefix()
-    
+
   body, html 
     overflow: hidden
 
@@ -584,8 +584,13 @@ hr
 
   @media screen and (max-width: 767px)
 
+    hr
+      width: 90%
+      margin-left: 0px
+
     .room-info-toggle
       display: block
+      margin-right: -20px
 
     .likes
       margin: 22px 27px 0 27px
@@ -593,7 +598,8 @@ hr
     section.room-container
       overflow-y: scroll
       overflow-x: hidden
-      width: 103%
+      width: 100%
+      padding-right: 30px
       +transition (all 0s)
 
     section.roomInfo
@@ -621,6 +627,25 @@ hr
       overflow-x: hidden
       position: static
 
+    .userInfo
+      margin-right: 30px
+
+    .playlist
+      padding-right: 30px
+
+    .queue
+      padding-right: 0
+      margin-right: -15px
+
+    .search-in-queue
+      margin-right: -15px
+
+    .history
+      margin-right: -15px
+
+    .theirRating
+      margin-right: 40px
+
   @media screen and (max-width: 606px)
 
     .logo
@@ -645,6 +670,9 @@ hr
       padding-right: 5000px
       left: 0px
 
+    .theirRating
+      margin-right: 20px
+
 
   @media screen and (max-width: 458px)
 
@@ -657,6 +685,8 @@ hr
     section.roomInfo
       overflow-y: scroll
       overflow-x: hidden
+      +transition (all .3s ease-in)
+      padding-right: 5000px
 
     section.playlist
       padding-right: 30px
