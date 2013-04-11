@@ -555,5 +555,152 @@ hr
     .queue
       margin-left: 0px
 
+@-moz-document url-prefix()
+    
+  body, html 
+    overflow: hidden
+
+  div.search-results
+    padding-right: 30px
+    overflow-x: hidden
+
+  header.expanded
+    overflow-x: hidden
+    width: 100%
+
+  section.roomInfo
+    padding: 20px 1000px 0 40px
+    width: 30%
+
+  section.playlist 
+    background: #22201F
+    width: 68%
+    right: -30px
+    border-left: 1px solid #2c2a29
+    +box-shadow (0 2px 6px rgba(0,0,0,.4))
+
+  header
+    width: 100%
+
+  @media screen and (max-width: 767px)
+
+    .room-info-toggle
+      display: block
+
+    .likes
+      margin: 22px 27px 0 27px
+
+    section.room-container
+      overflow-y: scroll
+      overflow-x: hidden
+      width: 103%
+      +transition (all 0s)
+
+    section.roomInfo
+      position: static
+      text-shadow: $text-shadow
+      padding: 0
+      background: rgba(0,0,0,.2)
+      width: 100%
+      overflow-y: auto
+      overflow-x: hidden
+      +box-shadow (1px 0 0 rgba(255, 255, 255, 0.05), inset -1px 0 4px rgba(0,0,0,.3))
+      +transition (all .3s ease-in)
+      opacity: 0
+      height: 0
+
+      &.visible
+        padding: 20px 40px 0 40px
+        height: auto
+        opacity: 1
+
+    section.playlist
+      text-shadow: $text-shadow
+      width: 100%
+      overflow-y: auto
+      overflow-x: hidden
+      position: static
+
+  @media screen and (max-width: 606px)
+
+    .logo
+      background: image-url('logo-icon@2x.png')
+      width: 44px
+      height: 54px
+      background-size: 100%
+      margin: 12px 40px 0 0
+
+    section.room-container
+      overflow-y: scroll
+      overflow-x: hidden
+
+  @media screen and (max-width: 520px)
+
+    .coverArt
+      display: none
+
+    section.room-container
+      overflow-y: scroll
+      overflow-x: hidden
+      padding-right: 5000px
+      left: 0px
 
 
+  @media screen and (max-width: 458px)
+
+    .likes
+      display: none
+
+    section.room-container
+      width: 103%
+
+    section.roomInfo
+      overflow-y: scroll
+      overflow-x: hidden
+
+    section.playlist
+      padding-right: 30px
+      overflow-y: scroll
+      overflow-x: hidden
+
+    .queue
+      padding-left: 20px
+
+  @media screen and (max-width: 440px)
+
+    .likes
+      display: none
+
+    section.room-container
+      width: 103%
+
+    section.roomInfo
+      overflow-y: scroll
+      overflow-x: hidden
+
+    section.playlist
+      padding-right: 30px
+      overflow-y: scroll
+      overflow-x: hidden
+
+    .queue
+      padding-left: 0px
+
+  @media screen and (max-width: 286px)
+
+    .likes
+      display: none
+
+    section.room-container
+      top: 170px
+      width: 107%
+
+    section.roomInfo
+      width: 107%
+      overflow-y: scroll
+      overflow-x: hidden
+
+    section.playlist
+      width: 107%
+      overflow-y: scroll
+      overflow-x: hidden
